@@ -24,7 +24,7 @@ class DDQN:
         self.gamma = 0.95
         self.epsilon = 0.8
         self.epsilon_decay = 0.99
-        self.target_update_counter = 0
+        self.target_update_counter = 1
         #
         if(len(state_dim) < 3):
             self.tau = 1e-2
